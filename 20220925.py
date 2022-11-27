@@ -8,7 +8,7 @@
 # audi.seat=4
 # print(isinstance(audi, Cars)) #確認物件跟類別之間的關係確認物件跟類別之間的關係
 # print(audi.color) #執行結果：執行結果：blue
-# print(audi.seat)  #執行結果：4
+# print(audi.seat)  #執行結果：4w
 
 # class Cars:
 #     #建構式
@@ -44,7 +44,7 @@
 #     def printattribute(self):
 #         print("my name is"+self.firstName+','+self.lastName)
 # name1=fullname('Andy','wang')
-# name1.printattribute()
+# name1.printattribute()v2
 
 class People:
     pass

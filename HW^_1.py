@@ -1,7 +1,6 @@
 from tkinter import *
 
 root = Tk()
-root.title('oxxo.studio')
 root.geometry('200x200')
 
 n = 0               
@@ -13,11 +12,11 @@ def add():
     n = n + 1      
     a.set(n)        
 
-mylabel = Label(root, textvariable=a, font=('Arial',20))  # 放入標籤
+mylabel = Label(root, textvariable=a)
 mylabel.pack()
 
-# Button 設定 command 參數
-btn = Button(root,text='betton',font=('Arial',30,'bold'),command=add)
+
+btn = Button(root,text='button',command=add)
 btn.pack()
 
 root.mainloop()
